@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-overflow: ellipsis;
+}
+.navbar{
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color: rgb(226, 98, 98);
+    width:100%;
+     color:aliceblue;
+    font-size:15px;
+    text-align: center;
+}
+.journalsec{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right:40px;
+    display: flex;
+    flex-direction: column;
+}
+.journal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: solid 1px black;
+}
+.image>img{
+    border-radius: 15px;
+    margin-right: 40px;
+}
+.info{
+    margin-right:40px;
+}
+.info .fas{
+  color:rgb(225, 73, 73);
+}
+.info span{
+    margin-right:40px;
+}
+#date {
+    font-weight:bold;
+    font-family: 'Poppins', sans -serif;
+}
+.info a{
+    color: gray;
+    text-decoration: underline;
+}
+.info a:hover{
+    color: black;
+}
